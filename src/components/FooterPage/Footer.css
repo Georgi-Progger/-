@@ -1,0 +1,128 @@
+.footer{
+    height: 505px;
+    background: #081E4B;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+a, u {
+    text-decoration: none;
+}
+.footer__down{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo >ul{
+    display: flex;
+    align-items: center;
+    margin-right: 252px;
+}
+.footer-logo >ul >li{
+    list-style-type: none;
+    margin-right: 32px;
+}
+.footer-logo >ul >li >a >p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E8AC6;
+}
+.ref__container >h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.text-ref {
+    margin-right: 21px;
+}
+.text-ref >p{
+    width: 229px;
+    height: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+.text-ref__buttons{
+    display: flex;
+    align-items: center;
+}
+
+.last-ref{
+    margin-right: 0;
+}
+.google-play{
+    margin-right: 13px;
+}
+.ref__container-inside{
+    display: flex;
+}
+.ref-app{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+.ref-app >p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.ref-app >ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 47px;
+}
+::marker{
+    display: none;
+}
+.ref{
+    list-style-type: none;
+    margin-right: 16px;
+}
+.cars-list__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 108px;
+}
+.cars-list{
+    padding-left: 117px;
+}
+.cars-list >li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.cars-list >li >a >p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.first-list{
+    padding-left: 78px;
+}
